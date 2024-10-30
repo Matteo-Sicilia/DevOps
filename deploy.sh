@@ -19,7 +19,7 @@ git pull origin main  # Change 'main' if your default branch is different (e.g.,
 npm install
 
 # Step 5: Restart Node.js application (using pm2 as an example)
-pm2 restart $NODE_APP_NAME
+node $NODE_APP_NAME
 
 EOF
 

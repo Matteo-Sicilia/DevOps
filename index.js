@@ -4,7 +4,7 @@ const http = require('http');
 const server = http.createServer((req, res) => {
     res.statusCode = 200; // Set status code to 200 (OK)
     res.setHeader('Content-Type', 'text/plain'); // Set content type header to plain text
-    res.end('push test\n'); // Send response body "Hello World"
+    res.end('scripts\n'); // Send response body "Hello World"
 });
 
 // Define port number and start listening for requests
